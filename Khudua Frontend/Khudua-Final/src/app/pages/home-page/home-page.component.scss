@@ -1,0 +1,63 @@
+.paragraph-container{
+    display: flex;
+    align-items: center;
+    margin: 1rem 4.5rem 1rem 4.5rem;
+    padding: .5rem;
+    font-size: 12px;
+    line-height: 1;
+  }
+  
+  .company-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .company-logo img{
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+  }
+  
+  .sticker-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  
+  .sticker-container a{
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .advice, .fast-delivery, .plant-machine-hire{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: .2rem solid black;
+  }
+  
+  span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12.5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .khudua-branches{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 25px;
+  }
+  
+  .khudua-branches a{
+    border: .1rem solid black;
+    padding: 20px;
+    color: white;
+    background-color: #aa853d;
+    border-radius: 2rem;
+  }

@@ -1,0 +1,111 @@
+h2
+{  
+    text-align: center;
+    color: #304364 ;
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  
+  .contact-section{
+    border: 7px solid #304364;
+    border-style: ridge;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .contact-us{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .contact-section h3{
+    color: #304364;
+    font-size: 18px;
+  }
+  
+  .contact-section p{
+    font-size: 12px;
+  }
+  
+  .enquire-about-us{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .locate-us{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .address-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+  }
+  
+  .main-office, .joburg-office, .polokwane-office{
+    border: 5px solid #304364;
+    border-style: outset;
+    padding: 13px;
+    border-radius: 15px;
+  }
+  
+  .main-office h3, .joburg-office h3, .polokwane-office h3{
+    text-align: center;
+    color: #304364;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .main-office p, .joburg-office p, .polokwane-office p{
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  
+  .map-link{
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #304364;
+    font-weight: bold;
+    font-size: smaller;
+  }
+  
+  input, textarea{
+    width: 100%;
+  }
+  
+  
+  
+  .button-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button{
+    width: 90px;
+    height: 40px;
+    background-color: #aa853d;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  button:hover{
+    background-color: #304364;
+    color: black;
+  }
